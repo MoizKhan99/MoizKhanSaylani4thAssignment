@@ -1,0 +1,12 @@
+.nav {
+    display: inline-block;
+    border: solid black 1px;
+}
+
+.b {
+    background-color: lightgrey;
+}
+
+.def {
+    text-align: center;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+        
+        .main {
+            font-size: 50px;
+            color: blanchedalmond;
+            text-align: center;
+        }
+        
+        .signup {
+            border: 1px solid black;
+            margin: 10px auto;
+            width: 50%;
+            color: blanchedalmond;
+            text-align: center;
+        }
+        
+        input[type=text],
+        input[type=password],
+        input[type=email],
+        input[type=number] {
+            width: 100%;
+        }
+        
+        @media screen and (max-width: 1000px) {
+            .signup {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 CLASS="main">MOIZ STORE</h1>
+    <hr>
+    <div class="signup">
+        <h1>Sign In</h1><br />
+        <form>
+            <label>First Name:<br />
+            <input type="text" name="First Name" required="required" /></label><br /><br />
+            <label>Last Name:<br />
+            <input type="text" name="Last Name" required="required" /></label><br /><br />
+            <label>Age:<br />
+            <input type="number" name="age" required="required"  /></label><br /><br />
+            <label>Email:<br />
+            <input type="email" name="email" required="required" /></label><br /><br />
+            <label>Mobile:<br />
+            <input type="text" name="mobile" required="required" /></label><br /><br />
+            <label>Password:<br />
+            <input type="password" name="Password" required="required" /></label><br /><br />
+            <div>Gender:
+                <br> Female:
+                <input id="female" type="radio" name="gender" value="f">
+                <br> Male:
+                <input id="male" type="radio" name="gender" value="m">
+            </div>
+            <br>
+            <a href="Login.html"><img src="Sign.png" height="35px" width="70px"></a>
+        </form>
+    </div>
+</body>
+
+</html>
